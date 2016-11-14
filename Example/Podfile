@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'JSPresentationAnimation_Example' do
+  pod 'JSPresentationAnimation', :path => '../'
+
+  target 'JSPresentationAnimation_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
