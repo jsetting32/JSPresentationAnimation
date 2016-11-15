@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EE42E9A1DD96C6400A3DDF0 /* JSPAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E8D1DD96C6400A3DDF0 /* JSPAConstants.m */; };
+		1EE42E9B1DD96C6400A3DDF0 /* JSPAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E8F1DD96C6400A3DDF0 /* JSPAController.m */; };
+		1EE42E9C1DD96C6400A3DDF0 /* JSPADismissal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E911DD96C6400A3DDF0 /* JSPADismissal.m */; };
+		1EE42E9D1DD96C6400A3DDF0 /* JSPAInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E931DD96C6400A3DDF0 /* JSPAInteraction.m */; };
+		1EE42E9E1DD96C6400A3DDF0 /* JSPAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E951DD96C6400A3DDF0 /* JSPAManager.m */; };
+		1EE42E9F1DD96C6400A3DDF0 /* JSPANavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E971DD96C6400A3DDF0 /* JSPANavigation.m */; };
+		1EE42EA01DD96C6400A3DDF0 /* JSPAPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E991DD96C6400A3DDF0 /* JSPAPresentation.m */; };
+		1EE42EA61DDA4ECF00A3DDF0 /* JSPAPresentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42EA51DDA4ECF00A3DDF0 /* JSPAPresentedController.m */; };
 		545C801B79DB4028814E41A9 /* Pods_JSPresentationAnimation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC1DD05BC94412AD72AB75B /* Pods_JSPresentationAnimation_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -36,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EE42E761DD9659F00A3DDF0 /* JSPresentationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPresentationAnimation.h; sourceTree = "<group>"; };
+		1EE42E8C1DD96C6400A3DDF0 /* JSPAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAConstants.h; sourceTree = "<group>"; };
+		1EE42E8D1DD96C6400A3DDF0 /* JSPAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAConstants.m; sourceTree = "<group>"; };
+		1EE42E8E1DD96C6400A3DDF0 /* JSPAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAController.h; sourceTree = "<group>"; };
+		1EE42E8F1DD96C6400A3DDF0 /* JSPAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAController.m; sourceTree = "<group>"; };
+		1EE42E901DD96C6400A3DDF0 /* JSPADismissal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPADismissal.h; sourceTree = "<group>"; };
+		1EE42E911DD96C6400A3DDF0 /* JSPADismissal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPADismissal.m; sourceTree = "<group>"; };
+		1EE42E921DD96C6400A3DDF0 /* JSPAInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAInteraction.h; sourceTree = "<group>"; };
+		1EE42E931DD96C6400A3DDF0 /* JSPAInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAInteraction.m; sourceTree = "<group>"; };
+		1EE42E941DD96C6400A3DDF0 /* JSPAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAManager.h; sourceTree = "<group>"; };
+		1EE42E951DD96C6400A3DDF0 /* JSPAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAManager.m; sourceTree = "<group>"; };
+		1EE42E961DD96C6400A3DDF0 /* JSPANavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPANavigation.h; sourceTree = "<group>"; };
+		1EE42E971DD96C6400A3DDF0 /* JSPANavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPANavigation.m; sourceTree = "<group>"; };
+		1EE42E981DD96C6400A3DDF0 /* JSPAPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAPresentation.h; sourceTree = "<group>"; };
+		1EE42E991DD96C6400A3DDF0 /* JSPAPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAPresentation.m; sourceTree = "<group>"; };
+		1EE42EA41DDA4ECF00A3DDF0 /* JSPAPresentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAPresentedController.h; sourceTree = "<group>"; };
+		1EE42EA51DDA4ECF00A3DDF0 /* JSPAPresentedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAPresentedController.m; sourceTree = "<group>"; };
 		1FC1DD05BC94412AD72AB75B /* Pods_JSPresentationAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSPresentationAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JSPresentationAnimation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPresentationAnimation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,14 +82,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6806E1543FFF0CE8B92B29F6 /* Pods-JSPresentationAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPresentationAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPresentationAnimation_Tests/Pods-JSPresentationAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7BB16C240201422DA0632A94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7BB16C240201422DA0632A94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9318AC52ECE3BF6A7BFB3E66 /* Pods-JSPresentationAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPresentationAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPresentationAnimation_Tests/Pods-JSPresentationAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9498A672A3A2421DEBA66C83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9498A672A3A2421DEBA66C83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B217C9EF25902B75A3CC6BFC /* Pods-JSPresentationAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPresentationAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPresentationAnimation_Example/Pods-JSPresentationAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2C251F3792B476DEFC9A8D2 /* Pods_JSPresentationAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSPresentationAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF2C8DB9BCF3B83D9C60B8A /* Pods-JSPresentationAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPresentationAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPresentationAnimation_Example/Pods-JSPresentationAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF8A3858D5920EFA20E184B8 /* JSPresentationAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSPresentationAnimation.podspec; path = ../JSPresentationAnimation.podspec; sourceTree = "<group>"; };
+		DF8A3858D5920EFA20E184B8 /* JSPresentationAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSPresentationAnimation.podspec; path = ../JSPresentationAnimation.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +160,23 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JSPAViewController.h */,
 				6003F5A6195388D20070C39A /* JSPAViewController.m */,
+				1EE42EA41DDA4ECF00A3DDF0 /* JSPAPresentedController.h */,
+				1EE42EA51DDA4ECF00A3DDF0 /* JSPAPresentedController.m */,
+				1EE42E761DD9659F00A3DDF0 /* JSPresentationAnimation.h */,
+				1EE42E8C1DD96C6400A3DDF0 /* JSPAConstants.h */,
+				1EE42E8D1DD96C6400A3DDF0 /* JSPAConstants.m */,
+				1EE42E8E1DD96C6400A3DDF0 /* JSPAController.h */,
+				1EE42E8F1DD96C6400A3DDF0 /* JSPAController.m */,
+				1EE42E901DD96C6400A3DDF0 /* JSPADismissal.h */,
+				1EE42E911DD96C6400A3DDF0 /* JSPADismissal.m */,
+				1EE42E921DD96C6400A3DDF0 /* JSPAInteraction.h */,
+				1EE42E931DD96C6400A3DDF0 /* JSPAInteraction.m */,
+				1EE42E941DD96C6400A3DDF0 /* JSPAManager.h */,
+				1EE42E951DD96C6400A3DDF0 /* JSPAManager.m */,
+				1EE42E961DD96C6400A3DDF0 /* JSPANavigation.h */,
+				1EE42E971DD96C6400A3DDF0 /* JSPANavigation.m */,
+				1EE42E981DD96C6400A3DDF0 /* JSPAPresentation.h */,
+				1EE42E991DD96C6400A3DDF0 /* JSPAPresentation.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -390,9 +432,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE42EA61DDA4ECF00A3DDF0 /* JSPAPresentedController.m in Sources */,
 				6003F59E195388D20070C39A /* JSPAAppDelegate.m in Sources */,
+				1EE42E9C1DD96C6400A3DDF0 /* JSPADismissal.m in Sources */,
 				6003F5A7195388D20070C39A /* JSPAViewController.m in Sources */,
+				1EE42E9D1DD96C6400A3DDF0 /* JSPAInteraction.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1EE42EA01DD96C6400A3DDF0 /* JSPAPresentation.m in Sources */,
+				1EE42E9F1DD96C6400A3DDF0 /* JSPANavigation.m in Sources */,
+				1EE42E9B1DD96C6400A3DDF0 /* JSPAController.m in Sources */,
+				1EE42E9A1DD96C6400A3DDF0 /* JSPAConstants.m in Sources */,
+				1EE42E9E1DD96C6400A3DDF0 /* JSPAManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
